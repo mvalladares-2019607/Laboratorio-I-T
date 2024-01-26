@@ -13,6 +13,7 @@ header {
 h3{
     text-align: center;
 }
+
  
  a {
  
@@ -47,6 +48,7 @@ h3{
  .conteinerCards1{
     display: flex;
  }
+
 .beneficiados{
     background-image: url("/image/imagen15-kinal.png");
 }
