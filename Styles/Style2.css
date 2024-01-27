@@ -5,6 +5,8 @@ body {
     background-color: #F0EDCF;
 }
 
+
+
 header {
     
     background-color: #000000;
@@ -75,6 +77,51 @@ textarea {
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0; 
+    width: 50%;
+   background-color: #000000;
+}
+
+.nav-links.active {
+    display: none;
+}
+
+.nav-link {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+a {
+ 
+    color: white;
+
+    padding: 10px;
+
+    text-decoration: none;
+
+}
+
+a:hover {
+    cursor: pointer;
+    color:skyblue;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.nav-toggle {
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 95%; 
 }
 
 
