@@ -56,14 +56,23 @@ h2{
 
  .conteinerCards{
     display: flex;
+    
+    text-align: justify;
+    
+
  }
  .conteinerCards1{
     display: flex;
+    text-align: center; 
  }
-
-.beneficiados{
-    background-image: url("/image/imagen15-kinal.png");
+ .conteinerCards2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    text-align: center; 
 }
+
 .redes-sociales a {
     margin: 0 10px;
     text-decoration: none;
